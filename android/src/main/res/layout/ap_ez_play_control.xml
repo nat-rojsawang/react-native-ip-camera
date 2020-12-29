@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/realplay_control_rl"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:layout_below="@+id/realplay_sv">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a6000000" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/realplay_play_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="onClick"
+            android:src="@drawable/btn_ap_play_selector" />
+
+
+        <ImageButton
+            android:id="@+id/realplay_quality_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="onClick"
+            android:src="@drawable/btn_ap_quality_selector" />
+
+        <ImageButton
+            android:id="@+id/realplay_sound_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:onClick="onClick"
+            android:src="@drawable/btn_ap_sound_selector" />
+
+        <!-- 播放速度 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/realplay_flow_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/realplay_text_size"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/fullscreen_button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:src="@drawable/btn_ap_enlarge_selector" />
+        <!--
+            <Button
+                android:id="@+id/play_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/vertical_preview_stop_selector" />
+
+            <View
+                android:id="@+id/sound_line"
+                android:layout_width="1dp"
+                android:layout_height="18dp"
+                android:background="#404040" />
+
+            <Button
+                android:id="@+id/sound_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/vertical_preview_sound_selector" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="18dp"
+                android:background="#404040" />
+
+            <Button
+                android:id="@+id/multi_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/vertical_preview_singleframe_selector" />
+
+            <View
+                android:id="@+id/quality_line"
+                android:layout_width="1dp"
+                android:layout_height="18dp"
+                android:background="#404040" />
+
+            <Button
+                android:id="@+id/quality_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/quality_balanced"
+                android:textColor="@color/multi_quality_color_selector"
+                android:textSize="@dimen/quality_text_size"
+                android:background="@null" />
+
+            <View
+                android:id="@+id/mirror_line"
+                android:layout_width="1dp"
+                android:layout_height="18dp"
+                android:background="#404040" />
+
+            <com.videogo.widget.CheckTextButton
+                android:id="@+id/fullscreen_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/preview_enlarge_selector" />
+        -->
+    </LinearLayout>
+</RelativeLayout>

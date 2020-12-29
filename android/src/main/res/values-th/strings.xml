@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IP Camera</string>
+    <string name="font">fonts/ap_regular.ttf</string>
+    <string name="sdk_is_init">กำลังโหลด</string>
+    <string name="can_not_connect_to_device">ไม่สามารถเชื่อมต่ออุปกรณ์ได้</string>
+    <string name="already_saved_to_volume">บันทึกไปยัง อัลบั้ม</string>
+    <string name="countdown">%d left for the message.</string>
+    <string name="camera_lens_closed">The Privacy Mask is on.</string>
+    <string name="realplay_encrypt_password_error_message">Enter the password as the video is encrypted. The default password is the device verification</string>
+    <string name="input_device_verify_code">Enter the device verification code.</string>
+    <string name="realplay_fail_device_not_exist">Offline Device(s)</string>
+    <string name="start_voice_talk">เริ่มต้นการสนทนา</string>
+    <string name="realplay_set_fail_network">Operation failed. Check your network.</string>
+    <string name="setting_video_level">Processing…</string>
+    <string name="remoteplayback_SDCard_disable_use">No memory card available.</string>
+
+    <string name="remoteplayback_capture_fail_for_memory">Operation failed, insufficient memory space.</string>
+    <string name="realplay_play_fail_becauseof_network">Video playback failed. Check your network.</string>
+    <string name="camera_lens_too_busy">Camera is moving. Please wait.</string>
+    <string name="realplay_fail_connect_device">Operation failed, device connection exception.</string>
+    <string name="remoteplayback_over_link">No more connection is allowed. Please disconnect from other terminals and try again.</string>
+    <string name="ptz_is_preseting">Camera is moving. Please wait.</string>
+    <string name="ptz_control_timeout_sound_lacalization_failed">Audio Tracking enabled. Operation failed.</string>
+    <string name="ptz_control_timeout_cruise_track_failed">Device is in operation, please wait…</string>
+    <string name="ptz_preset_invalid_position_failed">The current preset location has been deleted. Please refresh the list.</string>
+    <string name="ptz_preset_current_position_failed">Preset already loaded.</string>
+    <string name="ptz_preset_sound_localization_failed">Locating sound... Please wait.</string>
+    <string name="ptz_operation_failed">Operation failed.</string>
+    <string name="ptz_operation_too_frequently">Too many operations, please wait.</string>
+    <string name="ptz_preset_exceed_maxnum_failed">No more can be added.</string>
+    <string name="ptz_privacying_failed">PTZ operation failed. The lens is masked.</string>
+    <string name="realplay_set_vediomode_fail">Switching the video quality failed.</string>
+    <string name="realplay_play_fail">Playback failed.</string>
+    <string name="ptz_mirroring_failed">Operation failed, you cannot operate PTZ while two-way audio is active.</string>
+    <string name="realplay_play_talkback_fail_ison">Two-way audio can be enabled for only one device at the same time. Please stop the two-way audio of other device first and try again.</string>
+    <string name="realplay_play_talkback_network_exception">Network exception. The two-way audio is turned off.</string>
+    <string name="realplay_play_talkback_request_timeout">Requesting timed out. The two-way audio is turned off.</string>
+    <string name="realplay_play_talkback_fail">Turning the two-way audio on failed.</string>
+    <string name="realplay_play_talkback_fail_privacy">Operation failed. The privacy mask of the device is enabled.</string>
+</resources>
