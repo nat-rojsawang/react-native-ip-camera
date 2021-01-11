@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-
-<string name="app_name">IP Camera</string>
     <string name="font">fonts/ap_regular.ttf</string>
     <string name="sdk_is_init">Loading...</string>
     <string name="can_not_connect_to_device">Cannot connect to the device.\nPlease try again.</string>
