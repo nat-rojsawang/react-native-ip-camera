@@ -6,15 +6,17 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-ip-camera.git",
-    "baseUrl": "https://github.com/github_account/react-native-ip-camera"
+    "url": "git+https://github.com/nat-rojsawang/react-native-ip-camera.git",
+    "baseUrl": "https://github.com/nat-rojsawang/react-native-ip-camera"
   },
   "keywords": [
-    "react-native"
+    "react-native",
+    "react-native-ip-camera"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "username": "forviz",
+    "name": "forviz",
+    "email": "nat@forviz.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
