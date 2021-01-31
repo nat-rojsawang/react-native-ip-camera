@@ -1155,7 +1155,8 @@ public class EZRealPlayActivity extends RootActivity implements OnClickListener,
                         try {
                             mAudioPlayUtil.playAudioFile(AudioPlayUtil.CAPTURE_SOUND);
 
-                            final String strCaptureFile = getExternalCacheDir().getAbsolutePath() + "/Captures/" + System.currentTimeMillis() + ".jpg";
+                            // final String strCaptureFile = getExternalCacheDir().getAbsolutePath() + "/Captures/" + System.currentTimeMillis() + ".jpg";
+                            final String strCaptureFile = "/storage/emulated/0/Pictures/Captures/" + System.currentTimeMillis() + ".jpg";
                             LogUtil.e(TAG, "captured picture file path is " + strCaptureFile);
 
                             if (TextUtils.isEmpty(strCaptureFile)) {
